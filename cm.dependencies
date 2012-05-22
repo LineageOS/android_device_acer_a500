@@ -2,5 +2,10 @@
     {
         "repository": "android_device_acer_t20-common",
         "target_path": "device/acer/t20-common"
+    },
+    {
+        "repository": "android_kernel_acer_t20-common",
+        "target_path": "kernel/acer/t20-common",
+        "branch": "2.6.39"
     }
 ]
