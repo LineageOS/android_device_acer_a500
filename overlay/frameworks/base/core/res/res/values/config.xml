@@ -122,6 +122,8 @@
          <item>255</item>
          <item>255</item>
     </integer-array>
-    
+        
+    <!-- True will enable the electron beam screen-off animation. -->
+    <bool name="config_screenOffAnimation">false</bool>
     
 </resources>
