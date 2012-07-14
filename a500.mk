@@ -36,6 +36,10 @@ PRODUCT_COPY_FILES += \
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
+# tiny_hal
+PRODUCT_PACKAGES += audio.primary.picasso
+PRODUCT_COPY_FILES += $(LOCAL_PATH)/prebuilt/etc/sound/tiny_hw.xml:system/etc/sound/a500.xml
+
 $(call inherit-product, build/target/product/full_base.mk)
 
 # inherit t20-common
